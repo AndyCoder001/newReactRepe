@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+.navbar{
+    display: flex;
+    height: 40px;
+    box-shadow: 0px 0px 10px 0px rgb(211, 210, 210);
+}
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: blue;
+}
+.navbar a.active{
+    color: blue;
+}
+.navbar a.active:hover{
+    color: white;
+    background-color: blue;
+}
+@media screen and (max-width:430px){
+    .navbar a{
+        width: 33.33%;
+    }
+}
