@@ -1,0 +1,20 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.btn button{
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(230, 229, 229);
+    color: blue;
+    border: 1px blue;
+
+}
